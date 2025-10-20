@@ -1,7 +1,5 @@
 from src.transcript.get_vid_id import get_video_id
 from youtube_transcript_api import YouTubeTranscriptApi
-import sys
-import os
 
 def get_transcript(url):
     # Extracts the video ID from the URL
