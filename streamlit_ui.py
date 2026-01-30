@@ -17,7 +17,7 @@ from langchain.prompts import PromptTemplate
 
 # Page Configuration
 st.set_page_config(
-    page_title="AI-Powered YouTube Summarizer & QA",
+    page_title="Video-RAG-Analyst",
     page_icon="🎬",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -71,7 +71,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # Main Title
-st.title("🎬 AI-Powered YouTube Summarizer & QA")
+st.title("🎬 Video-RAG-Analyst")
 st.markdown("Extract insights, ask questions, and summarize YouTube videos in seconds.")
 
 # Sidebar Settings

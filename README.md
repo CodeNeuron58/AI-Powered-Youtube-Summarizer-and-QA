@@ -1,4 +1,4 @@
-# 🎬 AI-Powered YouTube Summarizer & QA
+# 🎬 Video-RAG-Analyst
 
 This application allows users to **summarize** and **ask questions** about YouTube videos. It uses Retrieval-Augmented Generation (RAG) to fetch transcripts, store them in a vector database, and generate answers or summaries using the **Cohere** Large Language Model (LLM).
 
