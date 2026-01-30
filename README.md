@@ -12,7 +12,7 @@ This application allows users to **summarize** and **ask questions** about YouTu
 -   **🔍 RAG-based QA**: Ask any question about the video content and get answers with source citations.
 -   **📝 Summarization**: Generate summaries for the entire video or specific topics.
 -   **⚡ Streamlit UI**: A user-friendly, interactive web interface.
--   **🚀 FastAPI Backend**: (Optional) JSON API for integration.
+
 
 > **Note**: Currently supports videos with **English subtitles** only.
 
@@ -72,12 +72,6 @@ Launch the interactive web app:
 streamlit run streamlit_ui.py
 ```
 
-### FastAPI (Backend Only)
-Run the backend API:
-```bash
-uvicorn fastapi_app:app --reload
-```
--   **Docs**: Go to `http://127.0.0.1:8000/docs` to test endpoints.
 
 ## 📁 Project Structure
 
@@ -89,7 +83,6 @@ uvicorn fastapi_app:app --reload
 │   ├── retriever/      # Vector Store & Retrieval
 │   └── transcript/     # YouTube Transcript Fetching
 ├── streamlit_ui.py     # Main Streamlit Application
-├── fastapi_app.py      # FastAPI Backend
 ├── requirements.txt    # Dependencies
 └── README.md           # Documentation
 ```
